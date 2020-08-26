@@ -1,0 +1,306 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.LeftHeaderBlock{
+    background:#fff;
+    width: 55%;
+    height: 600px;
+    float: left;
+}
+#headerblock{
+    height: 600px;
+}
+.RightHeaderBlock{
+    background: url('../images/Lunch3-new_mkqxdb\ \(1\).jpg');
+    width: 45%;
+    float: left;
+    height: 600px;
+    background-size: cover;
+    background-attachment:scroll;
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 70px;
+}
+.menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 54px;
+}
+.menu ul li{
+    display: inline-block;
+}
+#menuandlogo{
+    padding: 60px;
+}
+.logo svg{
+    fill: #fc8019;
+    width: 200px;
+}
+.menu ul li a{
+    color: #000;
+    padding: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color:#fc8019;
+}
+.Signup{
+    background: #111;
+    padding: 11px 30px !important;
+    color: white !important;
+}
+#MainBlock , .footerList {
+    padding: 20px 60px;
+    margin-top:0;
+}
+.HeaderTitle{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.contentblockpara p{
+    font-size: 23px;
+    padding: 0;
+    margin-top:0;
+    margin-bottom: 50px;
+}
+.form-control{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form{
+position: relative;
+
+}
+.button{
+    position: absolute;
+    background: #fc8019;
+    color: white;
+    padding: 10px;
+    border: none;
+    right: 0;
+    height: 59px;
+    top: 0;
+    width: 120px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.locateme{
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+.locateme:hover{
+    background: #eee;
+    transition: cubic-bezier(0.075,0.82,0.165,1);
+    cursor: pointer;
+}
+.footerList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footerList ul li{
+    display: inline-block;
+}
+.footerList h3{
+    color: #999;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.footerList ul li a{
+    text-decoration: none;
+}
+.footerList ul li:nth-child(odd) a {
+    color:#000 ;
+}
+.footerList ul li:nth-child(even) a {
+    color:#999;
+}
+.RightHeaderBlock{
+    /*visibility: hidden;*/
+    /* display: none; */
+    text-indent: -9999px;
+}
+
+/*----middlesection css is here----*/
+#middlesection{
+    background: #2b1e16;
+    padding: 0 20px;
+    height: 400px;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+.leftarea{
+    width: 30%;
+    float: left;
+}
+.middlearea{
+    width: 30%;
+    float: left;
+}
+.rightarea{
+    width: 30%;
+    float: left;
+}
+.contentarea{
+    text-align: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+.contentarea h1{
+    font-size: 18px;
+}
+.contentarea p{
+    font-size: 14px;
+    color: #e0cbc1;
+}
+.contentarea img{
+    width: 105px;
+    height: 199px;
+}
+
+/*restaurants css here*/
+#Restaurants{
+    clear: both;
+}
+.Restaurants_Left{
+    width: 45%;
+    float: left;
+}
+.Restaurants_Right{
+    width: 55%;
+    float: left;
+}
+.Restaurants_Left section{
+    padding: 110px 80px;
+}
+.Restaurants_Left section h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0;
+    width: 60%;
+    margin: 20px 0px;
+}
+.Restaurants_Left section p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 0px 40px 0px;
+    margin: 0;
+}
+.Restaurants_Left section figure,
+.Restaurants_Right figure {
+    margin: 0;
+    display: inline-block;
+}
+.Restaurants_Left section figure img{
+    width: 190px;
+}
+.Restaurants_Right figure img{
+    width: 400px;
+}
+.Restaurants_Right figure{
+    float: left;
+    width: 46%;
+}
+.Restaurants_Right figure:nth-child(2){
+    padding-top: 70px;
+}
+/*footermenu css start */
+
+#footermenus{
+    background: black;
+    clear: both;
+    height: 300px;
+    padding: 50px 40px;
+    color: white;
+    display: flex;
+}
+.fmenu1{
+    width: 25%;
+    min-width: 300px;
+}
+.list1{
+    margin: 0 0 1;
+    padding: 0;
+    list-style-type: none;
+}
+.list1 a{
+    text-decoration: none;
+     color: white;
+     margin-top: 30px;
+     line-height: 2;
+    transform: scaleX(1);
+}
+.fmenu2{
+    width: 25%;
+    min-width: 300px;
+}
+.list2{
+    margin: 0 0 1;
+    padding: 0;
+    list-style-type: none;
+}
+.list2 a{
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 2;
+    color: white;
+}.fmenu3{
+    width: 25%;
+    min-width: 300px;
+}
+.list3{
+    margin: 0 0 1;
+    padding: 0;
+    list-style-type: none;
+}
+.list3 a{
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 2;
+    color: white;
+}
+.fmenu4{
+    margin: 0 0 1;
+    width: 25%;
+    min-width: 300px;
+}
+.fig1 a{
+    border-style: none;
+    box-sizing: inherit;
+    transform: scaleX(1);
+    margin-bottom: 30px;
+    display: block;
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    will-change: transform;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+}
+.fig2 a{
+    margin-bottom: 30px;
+    display: block;
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    will-change: transform;
+    transition:.5s cubic-bezier(.215,.61,.355,1);
+}
